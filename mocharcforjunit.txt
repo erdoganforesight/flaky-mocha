@@ -1,0 +1,21 @@
+{
+    "reporter": "mocha-junit-reporter",
+    "reporterOptions": {
+        "testsuitesTitle": true,
+        "reporterOptions": {
+        "mochaFile": "./file.xml"
+        }
+    },
+    "toConsole": true,
+    "outputs": true
+}
+
+{
+    "reporter": "mocha-json-output-reporter",
+    "reporterOptions": {
+        "output": "./my-file.json"
+    },
+    "toConsole": true,
+    "outputs": true,
+    "retries": 8
+}

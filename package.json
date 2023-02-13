@@ -1,0 +1,19 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-json": "mocha --retries --reporter-options output=my-file.json",
+    "test-junit": "mocha --retries 10",
+    "test": "mocha --retries 8 --reporter json --reporter-options output=my-file.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
+}
